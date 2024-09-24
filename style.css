@@ -1,0 +1,46 @@
+:root {
+    /* CSS HSL */
+    --peach: hsla(31, 72%, 77%, 1);
+    --amaranth-purple: hsla(345, 73%, 40%, 1);
+    --english-violet: hsla(308, 18%, 24%, 1);
+    --khaki: hsla(33, 32%, 70%, 1);
+    --buff: hsla(24, 64%, 65%, 1);
+    --black: #222
+}
+
+body {
+    background-color: var(--english-violet);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input {
+    width: 80%;
+    padding: 20px;
+    font-size: 3rem;
+    font-weight: bold;
+    background-color: var(--khaki);
+    color: var(--black);
+    border: 5px solid var(--buff);
+    border-radius: 5px;
+}
+
+.output {
+    background-color: var(--peach);
+    font-weight: bold;
+    color: var(--amaranth-purple);
+    padding: 0.7em 1em;
+    font-size: 2rem;
+    border: 2px solid var(--buff);
+    border-radius: 3px;
+}
